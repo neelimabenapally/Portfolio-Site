@@ -1,0 +1,244 @@
+ /*media queries for responsive font-sizes start*/
+
+/* xs < 768 */
+@media screen and (max-width: 767px) {
+    body {
+        font-size: 0.9em;
+    }
+}
+
+/* sm */
+@media screen and (min-width: 768px) {
+    body {
+        font-size: 1em;
+    }
+}
+
+/* md */
+@media screen and (min-width: 992px) {
+    body {
+        font-size: 1.2em;
+    }
+}
+
+/* lg */
+@media screen and (min-width: 1200px) {
+    body {
+        font-size: 1.3em;
+    }
+}
+/*media queries for responsive font-sizes end*/
+
+/*responsive width for all images */
+img {
+  max-width: 100%;
+}
+
+/*css for the body*/
+body {
+  padding-top: 70px;
+  background-color: #e8edf3;
+}
+
+/*css for the navigation bar(menu bar) start*/
+.navbar {
+  background-color: #e8edf3;
+}
+
+.navbar-brand {
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 22px;
+  padding-bottom: 15px;
+  line-height: 20px;
+}
+
+
+.nav li {
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  line-height: 40px;
+
+}
+
+.nav li a {
+  font-family: 'Quicksand', sans-serif;
+  color: #2d3c49;
+  font-weight: normal;
+}
+/*css for the navigation bar(menu bar) end*/
+
+/*css for the logo*/
+#logo_img {
+  max-width: 80%
+}
+
+/*css for the name div start*/
+.head h1 {
+  font-family: 'Quicksand', sans-serif;
+  color: #2d3c49;
+  font-weight: bolder;
+  text-align: justify;
+  text-shadow: 2px 2px 5px #757868;
+}
+
+.head h4 {
+  font-family: 'Quicksand', sans-serif;
+  color: #2d3c49;
+  text-align: justify;
+}
+
+hr {
+  color: #7d97ad;
+  background-color: #7d97ad;
+  height: 5px;
+  width: 100%
+}
+/*css for the name div end*/
+
+/*css for the featured div start*/
+.featured h2 {
+  font-family: 'Quicksand', sans-serif;
+  color: #7d97ad;
+  font-weight: normal;
+  text-align: center;
+}
+
+.workimg {
+  font-family: 'Quicksand', sans-serif;
+  color: #2d3c49;
+  font-weight: bolder;
+  line-height: 2;
+  text-align: center;
+  }
+  /*css for the featured div end*/
+
+/*css for the about-me div start*/
+.well {
+  font-family: 'Quicksand', sans-serif;
+  color: #2d3c49;
+  text-align: justify;
+  background-color: #e8edf3;
+  }
+
+/*css for animated bootstrap skill bar start*/
+.progress {
+	border-radius: 20px;
+	height: 25px;
+}
+
+.skill-name {
+	text-transform: uppercase;
+	margin-left: 10px;
+	padding-left:10px;
+	padding-top: 2.5px;
+	float:left;
+	font-family: 'Raleway', sans-serif;
+	font-size: 1.1em;
+}
+
+.progress .progress-bar, .progress .progress-bar.progress-bar-default {
+    background-color: #46a546 ;
+}
+.progress  .progress-bar {
+    animation-name: animateBar;
+    animation-iteration-count: 1;
+    animation-timing-function: ease-in;
+    animation-duration: 1.0s;
+}
+
+@keyframes animateBar {
+    0% {transform: translateX(-100%);}
+    100% {transform: translateX(0);}
+}
+
+/*media Queries*/
+
+@media (min-width: 768px) and (max-width: 991px){
+	#about-section h1{font-size: 2.0em;}
+	.nav-pills li a{font-size: 1.3em !important;}
+
+
+}
+
+
+@media (max-width: 767px) {
+	#about-section h1{
+		margin-top: 90px !important;
+		font-size: 1.5em;}
+	.nav-pills li a{font-size: 1.3em !important;}
+	.about-me-text{font-size: 1.0em;}
+	.btn-tab .btn-overide{font-size: 0.8em;
+		width: 200px;
+	}
+	#about-section{
+		height: 750px;
+	}
+	#about-section h1{
+	margin-top: 50px;
+
+}
+}
+@media (max-width: 456px) {
+	#about-section{
+		height: 730px;
+	}
+	.nav-pills li a{font-size: 0.9em !important;}
+}
+
+@media(max-width: 648px) {
+	#about-section{
+		height: 800px;
+	}
+}
+
+@media (min-width: 481px) and (max-width: 553px) {
+	#about-section{
+		height: 900px;
+	}
+}
+
+@media (max-width: 479px) {
+	.btn-hire {
+		margin-top: 20px!important;
+
+	}
+	.btn-contact {
+		margin-top: 10px !important;
+	}
+
+	#about-section {
+		height: 950px;
+	}
+}
+
+@media (max-width: 442px) {
+	#about-section{
+		height: 980px;
+	}
+}
+
+@media (max-width: 411px) {
+	#about-section{
+		height: 1020px;
+	}
+}
+
+@media (max-width: 373px) {
+	#about-section{
+		height: 1050px;
+	}
+}
+/*css for animated bootstrap skill bar end*/
+/*css for about-me end*/
+
+/*css for contact start*/
+.contact_list {
+  font-family: 'Quicksand', sans-serif;
+  color: #2d3c49;
+  text-align: center;
+  line-height: 2;
+}
+/*css for contact end*/

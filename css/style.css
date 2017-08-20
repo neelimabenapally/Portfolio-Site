@@ -3,28 +3,28 @@
 /* xs < 768 */
 @media screen and (max-width: 767px) {
     body {
-        font-size: 0.9em;
+        font-size: 1.2em;
     }
 }
 
 /* sm */
 @media screen and (min-width: 768px) {
     body {
-        font-size: 1em;
+        font-size: 1.4em;
     }
 }
 
 /* md */
 @media screen and (min-width: 992px) {
     body {
-        font-size: 1.2em;
+        font-size: 1.4em;
     }
 }
 
 /* lg */
 @media screen and (min-width: 1200px) {
     body {
-        font-size: 1.3em;
+        font-size: 1.6em;
     }
 }
 /*media queries for responsive font-sizes end*/
@@ -37,18 +37,15 @@ img {
 /*css for the body*/
 body {
   padding-top: 70px;
-  background-color: #e8edf3;
+}
+h2{
+  margin-bottom: : 15px;
 }
 
 /*css for the navigation bar(menu bar) start*/
-.navbar {
-  background-color: #e8edf3;
-}
-
 .navbar-brand {
   padding-left: 15px;
   padding-right: 15px;
-  padding-top: 22px;
   padding-bottom: 15px;
   line-height: 20px;
 }
@@ -71,7 +68,7 @@ body {
 /*css for the navigation bar(menu bar) end*/
 
 /*css for the logo*/
-#logo_img {
+#logo-img {
   max-width: 80%
 }
 
@@ -104,6 +101,7 @@ hr {
   color: #7d97ad;
   font-weight: normal;
   text-align: center;
+  margin-bottom: : 15px;
 }
 
 .workimg {
@@ -121,6 +119,10 @@ hr {
   color: #2d3c49;
   text-align: justify;
   background-color: #e8edf3;
+  }
+
+  .well h3{
+    font-size: 23px;
   }
 
 /*css for animated bootstrap skill bar start*/
@@ -159,8 +161,6 @@ hr {
 @media (min-width: 768px) and (max-width: 991px){
 	#about-section h1{font-size: 2.0em;}
 	.nav-pills li a{font-size: 1.3em !important;}
-
-
 }
 
 
@@ -235,7 +235,7 @@ hr {
 /*css for about-me end*/
 
 /*css for contact start*/
-.contact_list {
+.contact-list {
   font-family: 'Quicksand', sans-serif;
   color: #2d3c49;
   text-align: center;
